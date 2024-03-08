@@ -166,7 +166,7 @@ if __name__ == '__main__':
     #
     # doctest.testmod()
 
-    binfile_path_list_ergo5: [str] = glob.glob("../data/ERGO6-COPY/*.bin")
+    binfile_path_list_ergo5: [str] = glob.glob("../data/ERGO5-COPY/*.bin")
     binfile_path_list_ergo6: [str] = glob.glob("../data/ERGO6-COPY/*.bin")
     create_summarized_csvs_from_genactiv_binfiles(
         binfile_paths=binfile_path_list_ergo5 + binfile_path_list_ergo6,
