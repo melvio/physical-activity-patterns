@@ -358,10 +358,7 @@ if __name__ == "__main__":
     header, df = load_genactiv_bin("../data/sample-from-ergo8/486-partial2.bin")
     print("debug")
 
-    # decode all files in a particular dir
-    # binfiles: [str] = glob.glob("../data/ERGO6-COPY/*.bin")
-
-    # only decode files 300-999.bin (because other ones already done)
+    # decode all files in a particular lcoation
     # binfiles: [str] = glob.glob("../data/ERGO6-COPY/[3-9][0-9][0-9].bin")
     # logging.debug(f"going to turn binfiles into granular csvs: {binfiles}")
     # turn_bin_files_into_csv(binfiles)
