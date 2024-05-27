@@ -15,7 +15,7 @@ Title: Clusters of physical activity patterns and body composition in 1991 commu
 | ./data/participants-characteristics | NOT PUBLICLY AVAILABLE: folder with participant information                                      | 
 | ./data/pca-results                  | NOT PUBLICLY AVAILABLE: folder with PCA results                                                  | 
 | ./data/physical-activity            | NOT PUBLICLY AVAILABLE: folder with per individual 30s-epoch phyysical activity data             | 
-| ./domumentation                     | NOT PUBLICLY AVAILABLE: internal documentation for researchers                                   | 
+| ./documentation                     | NOT PUBLICLY AVAILABLE: internal documentation for researchers                                   | 
 | ./srccode                           | source root: primary location of source code used to read .bin files and label physical activity |
 | ./srccode/utils                     | commonly used code                                                                               | 
 | .gitingore                          | files ignored by git                                                                             |
